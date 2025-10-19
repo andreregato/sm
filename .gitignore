@@ -1,0 +1,30 @@
+# Logs e erros
+error_log
+*.log
+
+# WordPress core
+wp-config.php
+.htaccess
+
+# Ambiente
+.env
+.env.local
+
+# Dependências
+/node_modules/
+/vendor/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Builds
+*.zip
+*.tar.gz
+
+# Arquivos temporários
+*~
